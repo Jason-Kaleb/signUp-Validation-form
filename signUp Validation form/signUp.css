@@ -1,0 +1,68 @@
+* {
+ font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align:center;
+
+}
+
+hr {
+    border: 1px solid gray;
+    display: flex;
+    width: 95%;
+}
+
+#div {
+    align-items: center;
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+#fieldset {
+   border: none;
+   width:75% ;
+}
+
+#div2 {
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    
+}
+
+input {
+    width: 150px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#div3 label {
+    width: 50px;
+    margin-left: -50px;
+}
+
+
+#div3 input {
+    margin-left: -20px;
+}
+
+#div3 {
+    display: inline-block;
+}
+
+button {
+    border-radius: 10px;
+    width:100px;
+    border: none;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+
